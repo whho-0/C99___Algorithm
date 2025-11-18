@@ -1,0 +1,10 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+// 10430 - 나머지
+int main(void)
+{
+	int a, b, c;
+	scanf("%d %d %d", &a, &b, &c);
+	printf("%d\n%d\n%d\n%d", (a + b) % c, ((a % c) + (b % c)) % c, (a * b) % c, ((a % c) * (b % c)) % c);
+	return 0;
+}
