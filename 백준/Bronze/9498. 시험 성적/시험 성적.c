@@ -8,16 +8,16 @@ int main(void)
 	if(score <= 100 && score >= 90)
 		printf("A");
 
-	if(score <= 89 && score >= 80)
+	else if(score <= 89 && score >= 80)
 		printf("B");
 
-	if(score <= 79 && score >= 70)
+	else if(score <= 79 && score >= 70)
 		printf("C");
 
-	if(score <= 69 && score >= 60)
+	else if(score <= 69 && score >= 60)
 		printf("D");
  
-	if(score < 60)
+	else
 		printf("F");
 
 	return 0;
