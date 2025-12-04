@@ -7,8 +7,10 @@ int main(void)
 	int i=0, j=0;
 	scanf("%d", &height);
 
+	// 트리의 높이만큼 출력
 	while(i<height)
 	{
+		// i의 갯수만큼 출력
 		while(j<=i)
 		{
 			printf("*");
@@ -47,5 +49,6 @@ int main(void)
 	}
 	return 0;
 }
+
 
 */
