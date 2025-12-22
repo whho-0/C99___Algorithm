@@ -4,14 +4,14 @@
 int main(void)
 {
 	int arr[9];
-	int max=0, count=0;
+	int max=0, count=0; // 초기화 안해서 틀림
 	
 	// 배열 비교하면서 채우기
 	for(int i=1; i<=9; i++)
 	{
 		scanf("%d", &arr[i]); 
 
-		// 0번째에 최댓값이 들어갈 수도 있으니 <=
+		// 1번째 최댓값이 들어갈 수 있으니 <=
 		if(max<=arr[i])
 		{	
 			max=arr[i];
@@ -21,3 +21,4 @@ int main(void)
 	printf("%d\n%d", max, count);
 	return 0;
 }
+
